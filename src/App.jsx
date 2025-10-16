@@ -1,12 +1,11 @@
 import "./App.css";
-import Bienvenue from "./Bienvenue";
+import Compteur from "./Compteur";
 
 function App() {
   return (
     <div>
       <h1>Mon app React</h1>
-      <Bienvenue name="Farah" />
-      <Bienvenue name="Siwar" />
+      <Compteur />
     </div>
   );
 }
