@@ -11,9 +11,7 @@ function App() {
 
 export default App;*/
 
-
-
-/*exercice 2 */ 
+/*exercice 2 */
 /*import './App.css'
 import Compteur from './Compteur'
 
@@ -28,11 +26,8 @@ function App() {
 
 export default App*/
 
-
-
-
 /*exercice 3*/
-import "./App.css";
+/*import "./App.css";
 import Formulaire from "./Formulaire";
 
 function App() {
@@ -40,6 +35,21 @@ function App() {
     <div>
       <h1>Formulaire React</h1>
       <Formulaire />
+    </div>
+  );
+}
+
+export default App;*/
+
+/*exercice 4*/
+import React from "react";
+import TodoApp from "./Todo";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <TodoApp />
     </div>
   );
 }
